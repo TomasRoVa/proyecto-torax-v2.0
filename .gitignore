@@ -1,0 +1,83 @@
+# Dataset y cachés pesados (MIMIC-CXR no se puede redistribuir)
+0-descargas/
+01-dataset/dataset_prueba/
+01-dataset/official_data_iccv_final
+01-dataset/resultados
+01-dataset/dataset-completo-merge/3000imagenes
+01-dataset/dataset-completo-merge/3000imagenes-limpieza-texto
+01-dataset/dataset-completo-merge/imagenes
+01-dataset/dataset-completo-merge/imagenes-crop-8
+01-dataset/dataset-completo-merge/imagenes-crop-8-3000
+01-dataset/dataset-completo-merge/imagenes-sin-texto
+01-dataset/dataset-completo-merge/resultados-rad-dino-test
+01-dataset/dataset-completo-merge/resultados-rad-dino-crop
+01-dataset/dataset-completo-merge/resultados-rad-dino-sin-texto
+01-dataset/baseline_history_raw.csv
+01-dataset/baseline_history_wtext.csv
+01-dataset/history_con_malas.csv
+01-dataset/history_sin_malas.csv
+
+# exploracion
+02-exploracion/metricas_v2.csv
+02-exploracion/peores_blur.png
+02-exploracion/peores_brisque_robusto_3000.png
+02-exploracion/peores_brisque.png
+02-exploracion/peores_IFI.png
+02-exploracion/quality_metrics.csv
+02-exploracion/04-revision-calidad-3000.ipynb
+02-exploracion/04-revision-calidad.ipynb
+02-exploracion/04-revision-calidad2 - copia.ipynb
+02-exploracion/04-revision-calidad2.ipynb
+
+# notebook
+03-notebook/mlruns
+03-notebook/00-MLrun.ipynb
+03-notebook/02-2-densenet-filtro-malacal.ipynb
+03-notebook/03-1-RAD-DINO copy.ipynb
+03-notebook/03-1-RAD-DINO.ipynb
+03-notebook/auc_por_etiqueta_por_experimento.csv
+03-notebook/auc_por_etiqueta.csv
+03-notebook/auc_por_experimento.csv
+03-notebook/auc_por_run.csv
+03-notebook/condiciones_seed42.png
+03-notebook/delta_auc_por_etiqueta.csv
+03-notebook/embeddings_raddino_sin_limpieza.pt
+03-notebook/mejor_head_raddino.pth
+03-notebook/mejor_modelo_densenet.pth
+03-notebook/mejor_modelo.pth
+03-notebook/metricas_por_etiqueta_raddino.csv
+03-notebook/metricas_por_etiqueta.csv
+03-notebook/mlflow_metrics_extraido.csv
+03-notebook/mlflow.db
+03-notebook/peores_brisque_robusto.png
+03-notebook/RAD_DINO_COMPLETO.py
+03-notebook/resumen_auc_por_experimento.csv
+03-notebook/zona_14_22_brisque_robusto.png
+
+hf_cache/
+resultados-rad-dino-test/
+
+# Entorno virtual de Python
+sklearn-env/
+
+# Configuración local
+.claude/settings.local.json
+
+# Archivos específicos que no se suben
+CLAUDE.md
+dimensiones_2994.csv
+dimensiones_subset.csv
+figura_5_1_prevalencias.png
+figura_5_3_coocurrencia.png
+figura_5_4_dimensiones.png
+fix_csv_paths.py
+mlflow.db
+output1.png
+
+# Extensiones de imagen/tracking por si aparecen sueltas en otras carpetas
+*.jpg
+*.jpeg
+*.png
+*.dcm
+*.pt
+*.pth
